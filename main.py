@@ -1,2 +1,15 @@
 print("Welcome!\nI'm here to help you name your band.")
-print('print("print("this")")')
+#first input
+user_name = input("To start, what is your name? ")
+print("Fascinating, your name contains " + str(len(user_name)) + " characters, which will definitely help me figure out the perfect band name and totally isn't a pointless question.")
+your_bday = input("What year were you born? ")
+dad_bday = input("What year was your father born? ")
+c = str(dad_bday)
+dad_bday = str(your_bday)
+your_bday = c
+print("That's kind of boring, instead let's say that your father was born in " + dad_bday + " and you were born in " + your_bday)
+print("Every band needs some sort of gimmick. It's kind of like in Terminator.")
+print("Let's get back to naming your band.")
+activity = input("What's your favorite activity? ")
+animal = input("What's your favorite animal?")
+print("I think you should name your band The " + activity + " " + animal +"!")
